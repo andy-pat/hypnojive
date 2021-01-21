@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/* Landing Page */
+.home-inner {
+  /* background-image: url(/img/bnw\ stools.jpeg); */
+  background-color: aqua;
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: rgb(240, 95, 12);
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
