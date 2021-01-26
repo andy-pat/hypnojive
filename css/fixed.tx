@@ -1,5 +1,4 @@
-/*--- Extra Bootstrap Column Padding --*/
-[class*="col-"] {
+--- Extra Bootstrap Column Padding -- [class*="col-"] {
   padding: 1rem;
 }
 
@@ -16,13 +15,13 @@
 }
 
 /*--- Fixed Landing Page Section --*/
-.landing {
+/* .landing {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: table;
   z-index: -1;
-}
+} */
 .home-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -32,15 +31,17 @@
   height: 100%;
 }
 .home-inner {
+  background-image: url(/img/cropped.png);
   position: fixed;
   display: table;
-  top: 0;
+  top: 100;
   left: 0;
   right: 0;
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   will-change: transform;
