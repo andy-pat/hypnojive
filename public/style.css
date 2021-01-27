@@ -13,13 +13,13 @@ navbar-fixed-top {
 }
 
 body {
-  background-color: rgb(250, 62, 28) !important;
+  background-color: #cc5500 !important;
   color: antiquewhite !important;
   font-family: "Dosis";
 }
 
 .bg-light {
-  background-color: rgb(250, 62, 28) !important;
+  background-color: #cc5500 !important;
 }
 
 a {
