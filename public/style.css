@@ -10,7 +10,9 @@ body {
   box-sizing: border-box;
   width: 100%;
 }
-
+.fa-youtube-play {
+  margin-top: 0.3rem;
+}
 p .text {
   font-size: 10vw !important;
   background-color: red;
@@ -55,7 +57,7 @@ a {
 }
 
 .bandxl {
-  max-width: 100%;
+  max-width: 80%;
   max-height: fit-content;
   margin-top: 1.6rem;
   border-top: antiquewhite double 0.5rem;
