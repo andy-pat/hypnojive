@@ -11,6 +11,12 @@ body {
   width: 100%;
 }
 
+p .text {
+  font-size: 10vw !important;
+  background-color: red;
+  width: 50vw;
+}
+
 navbar-fixed-top {
   margin: 0;
 }
@@ -48,6 +54,16 @@ a {
   padding-top: 0.8rem;
 }
 
+.bandxl {
+  max-width: 100%;
+  max-height: fit-content;
+  margin-top: 1.6rem;
+  border-top: antiquewhite double 0.5rem;
+  border-bottom: antiquewhite double 0.5rem;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+}
+
 .logo {
   display: block;
   margin: auto;
@@ -60,14 +76,12 @@ a {
   position: absolute;
   top: 1%;
   z-index: 1;
-  /* color: rgb(250, 250, 250); */
   text-transform: uppercase;
 }
 .box {
   text-align: ;
 }
 .heading {
-  /* font-family: "Unique"; */
   font-size: 3rem;
   text-shadow: 0.1rem 0.7rem 0.9rem rgba(0, 0, 0, 0.753);
   padding-bottom: 0.1rem;
@@ -99,16 +113,6 @@ a {
   text-align: center;
 }
 
-.about-img {
-  height: auto;
-  max-width: 100%;
-  padding: 0%;
-}
-
-.about .row {
-  margin-bottom: 1rem;
-}
-
 /* footer */
 
 footer {
@@ -132,11 +136,6 @@ footer .contact {
   border-radius: 50%;
 }
 
-.headshot {
-  /* align-content: center; */
-  /* width: fit-content; */
-}
-
 .centered {
   float: none;
   margin: 0 auto;
@@ -146,10 +145,7 @@ footer .contact {
 .embed-responsive {
   padding-bottom: 1rem;
 }
-/* .media .carousel {
-  width: 100%;
-  height: 100%;
-} */
+
 .media img {
   max-height: 50%;
   max-width: 100%;
