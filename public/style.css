@@ -19,6 +19,10 @@ p .text {
   width: 50vw;
 }
 
+.navbar {
+  padding: 1rem;
+}
+
 navbar-fixed-top {
   margin: 0;
 }
